@@ -7,7 +7,7 @@ creator: <a href="http://onev.cat">@onevcat</a>
 
 url: "http://vno.onevcat.com"
 
-
+permalink: /:year/:month/:title/
 
 # Format
 highlighter: rouge
