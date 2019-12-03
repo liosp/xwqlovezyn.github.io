@@ -1,5 +1,5 @@
 # Basic
-title: Lio
+title: Lio Xu
 subtitle: A Special Zone for Me and My Beloved Zhang
 welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
 description: To record my thoughts.
@@ -7,7 +7,7 @@ creator: <a href="http://onev.cat">@onevcat</a>
 
 url: "http://vno.onevcat.com"
 
-permalink: /:year/:month/:title/
+
 
 # Format
 highlighter: rouge
@@ -22,7 +22,7 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    - {title: Projects, description: My Projects, url: 'http://www.baidu.com'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
