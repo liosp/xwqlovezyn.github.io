@@ -49,5 +49,5 @@ ga:
     # host: your_host
 
 theme: jekyll-theme-cayman
-baseurl:blog
+
 
