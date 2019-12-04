@@ -8,4 +8,4 @@ date: 2019-12-04 15:49:24.000000000 +09:00
 
 #### 来自我家心灵手巧的小宝贝的作品
 
-![avatar](/xwqlovezyn.github.io/assets/images/mobile.jpg)
+![avatar](../assets/images/mobile.jpg)
