@@ -1,24 +1,28 @@
-SpringBoot-redis-learning
+---
+layout: post
+title: SpringBoot-redis-learning
+date: 2019-12-06 16:32:24.000000000 +09:00
+---
 
 #### Lettuce
 
-Spring Boot2.0 Ä¬ÈÏÊ¹ÓÃLettuce£¬Lettuce ÊÇÒ»¸ö¿ÉÉìËõÏß³Ì°²È«µÄ Redis ¿Í»§¶Ë£¬¶à¸öÏß³Ì¿ÉÒÔ¹²ÏíÍ¬Ò»¸ö RedisConnection£¬ËüÀûÓÃÓÅĞã netty NIO ¿ò¼ÜÀ´¸ßĞ§µØ¹ÜÀí¶à¸öÁ¬½Ó¡£
+Spring Boot2.0 é»˜è®¤ä½¿ç”¨Lettuceï¼ŒLettuce æ˜¯ä¸€ä¸ªå¯ä¼¸ç¼©çº¿ç¨‹å®‰å…¨çš„ Redis å®¢æˆ·ç«¯ï¼Œå¤šä¸ªçº¿ç¨‹å¯ä»¥å…±äº«åŒä¸€ä¸ª RedisConnectionï¼Œå®ƒåˆ©ç”¨ä¼˜ç§€ netty NIO æ¡†æ¶æ¥é«˜æ•ˆåœ°ç®¡ç†å¤šä¸ªè¿æ¥ã€‚
 
-#### Ê¹ÓÃ²½Öè
+#### ä½¿ç”¨æ­¥éª¤
 
-1.ÒıÈëÒÀÀµ°ü£»
-2.Ìí¼ÓÅäÖÃÎÄ¼ş£»
-3.Ìí¼ÓcacheµÄÅäÖÃÀà£»(Ê¹ÓÃ×¢½â£º@EnableCachingÀ´¿ªÆô»º´æ)
+1.å¼•å…¥ä¾èµ–åŒ…ï¼›
+2.æ·»åŠ é…ç½®æ–‡ä»¶ï¼›
+3.æ·»åŠ cacheçš„é…ç½®ç±»ï¼›(ä½¿ç”¨æ³¨è§£ï¼š@EnableCachingæ¥å¼€å¯ç¼“å­˜)
 
-#### Redis°²×°Óë¼òµ¥Ê¹ÓÃ²È¿Ó
+#### Rediså®‰è£…ä¸ç®€å•ä½¿ç”¨è¸©å‘
 
-°²×°¿Ó£º¹ØÓÚpassword£¬²»ĞèÒªÔÚredis.windows.confÖĞĞŞ¸Ädefault password£¬¿ÉÒÔÔÚÃüÁîĞĞ½çÃæÊ¹ÓÃredis-cli.exeÀ´ÉèÖÃÃÜÂë£¬Á÷³ÌÈçÏÂ£º
+å®‰è£…å‘ï¼šå…³äºpasswordï¼Œä¸éœ€è¦åœ¨redis.windows.confä¸­ä¿®æ”¹default passwordï¼Œå¯ä»¥åœ¨å‘½ä»¤è¡Œç•Œé¢ä½¿ç”¨redis-cli.exeæ¥è®¾ç½®å¯†ç ï¼Œæµç¨‹å¦‚ä¸‹ï¼š
 
 1. F:Redis>redis-cli.exe
 2. config set requirepass your-password
 3. auth your-password
 
-×¢£º¹ØÓÚredis-cli.exeÔËĞĞÎŞ·´Ó¦ÎÊÌâ--redis server Ã»ÓĞÆô¶¯£¬ÁíÍâ¿ªÒ»¸öÃüÁîĞĞ½çÃæ£¬½øÈëredisÄ¿Â¼£¬redis-server.exe redis.windows.conf(redisÅäÖÃÎÄ¼şÃû)
+æ³¨ï¼šå…³äºredis-cli.exeè¿è¡Œæ— ååº”é—®é¢˜--redis server æ²¡æœ‰å¯åŠ¨ï¼Œå¦å¤–å¼€ä¸€ä¸ªå‘½ä»¤è¡Œç•Œé¢ï¼Œè¿›å…¥redisç›®å½•ï¼Œredis-server.exe redis.windows.conf(redisé…ç½®æ–‡ä»¶å)
 
-Ê¹ÓÃ¿ÓÔİÊ±Ã»Óö¼û£¬´ıĞø......
+ä½¿ç”¨å‘æš‚æ—¶æ²¡é‡è§ï¼Œå¾…ç»­......
 
