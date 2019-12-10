@@ -27,7 +27,8 @@ date: 2019-12-10 16:32:24.000000000 +09:00
 
 #### Main contirbution(In my opinion):
     结合对hawke process的了解，我认为本文的最大贡献在于continous-time LSTM的提出，
-    以往的LSTM中，Cell state的变化考虑的是一个interval到另一个interval的变化，本文提出的continous-time LSTM考虑了两个interval之间的cell state的变化，也就是之前事件对当前事件影响的衰减性。  
+    以往的LSTM中，Cell state的变化考虑的是一个interval到另一个interval的变化，
+    本文提出的continous-time LSTM考虑了两个interval之间的cell state的变化，也就是之前事件对当前事件影响的衰减性。  
 
 #### Future Work
     Combine with reinforce learning,whice means a continous-reinforce learning,
